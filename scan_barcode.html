@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer Design with html css</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Mulish&family=Nunito&display=swap=Nuosu+SIL&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scan_barcode.css">
+    
+    </style>
+</head>
+<body>
+  <!----------------------------------------------------Navbar ----------------------------------------------->
+  <nav class="navbar">      
+    <div class="title"> 
+      <img src="images/logo.png" alt="">  
+      <div class="sub-title">
+        <h2>ANEH-ANEH HOTEL</h2>      
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+      </div>    
+    </div>    
+    <div class="navbar-menu">
+      <ul class="f-menu">
+        <li><a href="">Home</a></li>        
+      </ul>
+    </div>
+  </nav>
+
+  <!-- User detail ary -->
+  <div class="containerz">
+    <div class="user-cont">
+      <div class="user-header">
+        <img src="./images/profile picture.png" alt="">
+      </div>
+      <div class="user-title">
+        <h1>Welcome lippybae!</h1>
+      </div>
+      <h3>Information</h3>
+      <div class="user-details">
+        <table>
+          <tr>
+            <td><i class="fa fa-envelope size"></i></td>
+            <td><p>lippybae@gmail.com</p></td>
+            <td><i class="fa fa-home size"></i></td>
+            <td><p>Paskal Hypersquare</p></td>
+          </tr>
+          <tr>
+            <td><i class="fa fa-calendar size"></i></td>
+            <td><p>31 Mei 2022</p></td>
+            <td><i class="fa fa-phone size"></i></td>
+            <td><p>08123456789</p></td>
+          </tr>
+        </table>
+      </div>
+      <h3 id="booked">Your Booked Room</h3>
+      <div class="user-booked">
+          <i class="fa fa-bed size"></i>
+          <p>Hotel Room</p>
+          <p>31 Mei 2022</p>
+          <p>Family Suite</p>
+      </div>
+    </div>
+  </div>
+
+<!--------------------------------------------------user Request ---------------------------------------------> 
+  <div class="containerz">
+    <div class="case"> 
+      <h1>LET US KNOW WHAT YOU NEED</h1>
+      <p>Have a special request? Ask, and the property will do its best to meet your wish.</p>
+      <p1>(Note that special request are not guaranteed and may incur charges)</p1>
+      
+      <div class="smoke">
+        <p>DO YOU HAVE A SMOKING PREFERENCE?</p>
+        <form action="/action_page.php">
+          <input type="radio" id="smoking" name="smoke" value="Smoking">
+          <label for="smoke">Smoking</label>
+          <input type="radio" id="nonsmoking" name="smoke" value="Non smoking">
+          <label for="nonsmoking">Non smoking</label>
+        </form>
+      </div>
+      
+      <div class="stay">
+        <p>PURPOSE YOUR STAY?</p>
+        <form action="actionpage.php">
+          <input type="radio" id="business" name="stay" value="Business">
+          <label for="business">Business</label>
+          <input type="radio" id="lesuire" name="lesuire" value="Lesuire">
+          <label for="lesuire">Lesuire</label>
+        </form>
+      </div>
+      
+      <div class="celebrate">
+        <p>DO YOU HAVE CELEBRATION IN ROOM?</p>
+        <form action="page.php">
+          <input type="radio" id="yes" name="celebrate" value="Yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="No" value="No">
+          <label for="no">No</label>
+        </form>
+      </div>
+      
+      <div class="req">
+        <p>Any personal requests? Please write in Enggris or in hotel local language.</p>
+        <div id="comment-message" class="form-row">
+          <textarea name = "comment" placeholder = "Message" id = "comment" maxlength="50"></textarea>
+        </div>
+        <p1>You have 50 remaining characters</p1>
+      </div>
+      
+      <div class="ver">
+        <p>Verification, please input password</p>
+        <input type="password" name="password" autocomplete="current-password" required="" id="id_password">
+      </div>
+      
+      <div class="button">
+        <!-- <a href="#clock"><button id="passwordbtn">Confirm</button></a>            -->
+        <button id="passwordbtn">Confirm</button>         
+      </div>
+    </div>
+</div>
+    <!----------------------------------------------------Barcode content -----------------------------------------------> 
+    <div class="scan">
+        <!-------------------------Clock ------------------------> 
+        <div class="container">      
+          <div id="clock">
+            <div class="circle" style="--clr:#04fc43;" id="sc"><i></i></div>
+            <div class="circle circle2" style="--clr:#fee800;" id="mn"><i></i></div>
+            <div class="circle circle3" style="--clr:#ff2972;" id="hr"><i></i></div>
+            
+            <span style="--i:1;"><b>1</b></span>
+            <span style="--i:2;"><b>2</b></span>
+            <span style="--i:3;"><b>3</b></span>
+            <span style="--i:4;"><b>4</b></span>
+            <span style="--i:5;"><b>5</b></span>
+            <span style="--i:6;"><b>6</b></span>
+            <span style="--i:7;"><b>7</b></span>
+            <span style="--i:8;"><b>8</b></span>
+            <span style="--i:9;"><b>9</b></span>
+            <span style="--i:10;"><b>10</b></span>
+            <span style="--i:11;"><b>11</b></span>
+            <span style="--i:12;"><b>12</b></span>
+        </div>
+        <div id ="time">
+          <div id ="hours"style="--clr:#ff2972;">00</div>
+          <div id ="minutes"style="--clr:#fee800;">00</div>
+          <div id ="seconds"style="--clr:#04fc43;">00</div>
+          <div id ="ampm">AM</div>
+        </div>
+      </div>
+      
+      <!-------------------------camera place ------------------------> 
+      <div class="image">
+        <img src="images/monitor2.png" alt="" class="monitor">
+        <img src="images/Camera.png" alt="" class="camera">
+      </div>
+      <!-------------------------button ------------------------> 
+      <div id="remote">
+        <label>
+          <input type="checkbox" name="" id="power">
+          <span class="btn"></span>
+          <i class="fa fa-power-off"></i>
+        </label>
+      </div>
+      
+      <!-------------------------light------------------------> 
+      <div class="light">
+        <!-- <div class = "wire"></div> -->
+        <!-- <div class ="bulb">
+          <span></span>
+          <span></span>
+        </div>             -->
+      </div>
+      <h1 id="status">Put your barcode infront of the camera !!</h1>       
+    </div>    
+  
+  
+  
+  
+  <!-- start footer -->
+  <footer>
+    <div class="footer-content">            
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+            <p><hr style="width:80%; background-color:white" ></p>
+            <p>Copyright © 2022, lippybae. | Privacy Policy & Terms of Service</p>         
+        </div>      
+    </footer>
+    <script src="scan_barcode.js"></script>
+  </body>
+  </html>
+  
+

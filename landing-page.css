@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #403f3f;
+  font-family: 'Nuosu SIL', serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* navbar*/
+nav {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-logo {
+  display: flex;
+  width: 30%;
+  padding: 10px 20px;
+  gap: 20px;
+  justify-content: flex-start;
+  color: white;
+}
+
+.navbar img {
+  height: 130%;
+  margin-top: -5px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0 0 40px;
+  width: 70%;
+  float: right;
+  background-color: #d7b865;
+  border-radius: 0 0 0 60px;
+}
+.navbar-menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.navbar-menu a:hover {
+  color: blue;
+}
+/* ============================================================== */
+
+/* footer */
+.footer {
+  bottom: 0;
+  font-family: "Inter", sans-serif;
+  background: rgb(45, 45, 45);
+  padding: 20px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 40px;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 10px 0;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #d7b865;
+  padding: 5px;
+}
+
+.socials a i {
+  font-size: 1.5rem;
+  width: 20px;
+}
+
+.socials a:hover i {
+  color: blue;
+}
+/* ============================================================== */
+
+/* Intro */
+
+.intro {
+  margin-top: 50px;
+  width: 80%;
+  display: flex;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+  justify-content: space-between;
+}
+.intro-text h1 {
+  color: #d7b865;
+  font-size: 70px;
+}
+.intro-text > p {
+  font-family: "Nunito", sans-serif;
+}
+.second-text {
+  margin-top: -30px;
+}
+.intro-text > p {
+  color: white;
+}
+.intro img {
+  box-shadow: 3px 3px 3px 3px rgba(31, 29, 29, 0.4);
+  width: 550px;
+}
+button,
+.intro-button {
+  font-family: "Mulish", sans-serif;
+  background-color: #d7b865;
+  width: 120px;
+  height: 40px;
+  bottom: 0;
+  color: black;
+  box-shadow: 3px 3px 3px 3px rgba(31, 29, 29, 0.4);
+  border: none;
+}
+/* ============================================================== */
+
+/* Hotels */
+.hotels-title {
+  margin-top: 50px;
+  text-align: center;
+  color: #d7b865;
+}
+.hotel-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+  margin-top: 40px;
+  color: #d7b865;
+}
+
+.hotels > button {
+  box-shadow: 3px 3px 3px 3px rgba(31, 29, 29, 0.4);
+  margin-top: 15px;
+}
+
+.hotels img {
+  width: 350px;
+  box-shadow: 3px 3px 3px 3px rgba(31, 29, 29, 0.4);
+  border-radius: 10px;
+}
+/* ============================================================== */
+
+/* Sign in */
+.sign-cont {
+  font-family: "Mulish", sans-serif;
+  background-color: lightgrey;
+  width: 40%;
+  margin-top: 70px;
+  padding: 40px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sign-cont > h1 {
+  color: #403f3f;
+  font-family: "Mulish", sans-serif;
+}
+.sign-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  width: 100%;
+  padding: 6px;
+  margin: 4px 0px;
+  border: 1px solid #403f3f;
+  background-color: #403f3f;
+  color: lightgray;
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.sign-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.sign-help {
+  margin: -20px 0 0;
+}
+
+button:hover {
+  background-color: #FFDB5B;
+  box-shadow: 0px 15px 20px rgba(255, 251, 0, 0.4);
+  color: black;
+  transform: translateY(-2px);
+}
+
+/* ============================================================== */
